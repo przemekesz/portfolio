@@ -403,6 +403,7 @@ nav.scrolling{
     font-size: 1.5em;
 }
 #cert article > p{
+    /* width: 80%; */
     color: #686f72;
     font-size: 1.2em;
 }
