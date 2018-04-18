@@ -103,9 +103,15 @@ $(document).ready(function(){
 
 
 var images = [];
-images.push("<img src ='img/dyplom1.jpg' class = 'opacImg'>");
-images.push("<img src ='img/dyplom2.jpg' class = 'opacImg'>");
-images.push("<img src ='img/dyplom3.jpg' class = 'opacImg'>");
+images.push("<img src ='img/dyploms/Akademia108.jpg' class = 'opacImg'>");
+images.push("<img src ='img/dyploms/angielski.jpg' class = 'opacImg'>");
+images.push("<img src ='img/dyploms/MTM-UAS1.jpg' class = 'opacImg'>");
+images.push("<img src ='img/dyploms/MTM-UAS2.jpg' class = 'opacImg'>");
+images.push("<img src ='img/dyploms/award4.jpg' class = 'opacImg'>");
+images.push("<img src ='img/dyploms/award1.jpg' class = 'opacImg'>");
+images.push("<img src ='img/dyploms/award2.jpg' class = 'opacImg'>");
+images.push("<img src ='img/dyploms/award3.jpg' class = 'opacImg'>");
+
 
 var curIndex = 0 ;
 var mainDiv = document.getElementById("my-image-slider");
@@ -150,9 +156,15 @@ prevBtn.addEventListener("click", function () {
 /* ARTICLE TO SLIDER*/
 
 var articles = [];
-articles.push("<h3>Akademia108</h3><br><p>Kurs programowania</p>");
-articles.push("<h3>Kurs języka angielskiego</h3><br><p>na poziomie b1</p>");
-articles.push("<h3>MTM-USA</h3><br><p>Duperele itd</p>");
+articles.push("<h3>Szkoła programowania</h3><br><p>Kurs bootcamp Front-end developer w szkole Akademia 108</p>");
+articles.push("<h3>Kurs języka angielskiego</h3><br><p>Ukończenie kursu języka angielskiego poziom B1+</p>");
+articles.push("<h3>Certyfikat MTM-UAS</h3><br><p>Uzyskanie kwalifikacji do zastosowania systemu modułów MTM-UAS</p>");
+articles.push("<h3>MTM-1</h3><br><p>Uzyskanie kwalifikacji do zastosowania bloków procesowych MTM</p>");
+articles.push("<h3>MTM-USA</h3><br><p>I miejsce w kokursie na najlepszy projekt roku 'Optymalizacja okna logistycznego'</p>");
+articles.push("<h3>Najlepszy projekt</h3><br><p>II miejsce w kokursie na najlepszy projekt roku 'Aplikacja dotowarowania segmentu GFT20'</p>");
+articles.push("<h3>MTM-USA</h3><br><p>III miejsce w kokursie na najlepszy projekt roku 'Wprowadzenie FIFO na magazynie'</p>");
+articles.push("<h3>MTM-USA</h3><br><p>Wyróżnienie w kokursie na najlepszy projekt roku 'Stojak na części'</p>");
+
 
 var curIndexArt = 0 ;
 var mainDivArt = document.getElementById("slider-article");

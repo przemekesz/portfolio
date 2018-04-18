@@ -16,6 +16,7 @@ body{
 }
 h2 {
     font-size: 2.5em;
+    color: rgb(32, 8, 8);
     margin: 1em;
     padding: 0;
 }
@@ -171,7 +172,7 @@ nav.scrolling{
 }
 #header #name-container .sec_col span {
     color: #b72c19;
-    font-weight: 400;
+    font-weight: 300;
 }
 #header #name-container .four_col{
     margin: 1em 0 0 0;
@@ -229,9 +230,7 @@ nav.scrolling{
     max-height: 100%;
     border: 20px solid white;
 }
-.about-left{
-    /*text-align: center;*/
-}
+
 .about-right {
     text-align: left;
     font-size: 1.8em;
@@ -243,8 +242,9 @@ nav.scrolling{
 }
 
 #about .secret-slide{
-    color: rgb(0, 166, 244);
-    font-weight: 400;
+    color: #b72c19;
+    /* color:  rgb(0, 166, 244); */
+    font-weight: 600;
 }
 #about span{
     cursor: pointer;
@@ -307,16 +307,16 @@ nav.scrolling{
   100% { transform: translate(-50%, -50%) scale(2.3); opacity: 0 }
 }
 @keyframes danceOrc {
-  0% { transform: rotate(-3deg); opacity: 0; left: -50% }
+  0% { transform: rotate(-3deg); opacity: 0; left: -40% }
     10% { transform: rotate(-3deg); opacity: 1; left: 0% }
     90% { transform: rotate(-3deg); opacity: 1; left: 0% }
-  100% { transform: rotate(-3deg); opacity: 0; left: -50% }
+  100% { transform: rotate(-3deg); opacity: 0; left: -40% }
 }
 @keyframes danceTauren {
-  0% { transform: rotate(-3deg); opacity: 0; bottom: 110%  }
+  0% { transform: rotate(-3deg); opacity: 0; bottom: 90%  }
     10% { transform: rotate(-3deg); opacity: 1; bottom: 99%  }
     90% { transform: rotate(-3deg); opacity: 1; bottom: 99%   }
-  100% { transform: rotate(-3deg); opacity: 0; bottom: 110%  }
+  100% { transform: rotate(-3deg); opacity: 0; bottom: 90%  }
 }
 /* ---------------------COURSES CERT SECTION*/
 #cert{
@@ -352,12 +352,10 @@ nav.scrolling{
     -webkit-box-shadow: -6px 10px 27px -10px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: -6px 10px 27px -10px rgba(0, 0, 0, 0.75);
     box-shadow: -6px 10px 27px -10px rgba(0, 0, 0, 0.75);
-    border: 10px solid #ffffff;
-    
-    
+    border: 10px solid #d8d8d8;
 }
 #cert #my-image-slider:active{
-    transform: scale(1.5);
+    transform: scale(1.7);
     z-index: 2;
     cursor:zoom-out;
 }
