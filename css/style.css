@@ -243,9 +243,11 @@ nav.scrolling{
 
 #about .secret-slide{
     color: #b72c19;
-    /* color:  rgb(0, 166, 244); */
+    position: relative;
     font-weight: 600;
+    border-bottom: #ffb5ab solid 1px;
 }
+
 #about span{
     cursor: pointer;
 }
