@@ -447,7 +447,7 @@ nav.scrolling{
 .hero-grid {
   position: relative;
   overflow: hidden;
-  background: #3e3535;
+  background: rgba(7, 5, 5, 0.582);
   cursor: pointer;
   margin: 10px;
   max-width: 300px;
@@ -493,8 +493,9 @@ nav.scrolling{
   margin: 0;
   padding: 0.25em 0;
   line-height: 1;
-    
+  color: #d6d6d6;
 }
+
 .hero-tag {
   display: inline-block;
   font-size: 1.6em;
@@ -546,7 +547,9 @@ nav.scrolling{
 .effect-move:hover .effect-text{
   opacity: 1;
 }
-
+.effect-move:hover .hero-grid-title{
+    color: black;
+}
 .effect-move:hover .hero-tag{
     background-color: #ffffff;
     color: black;
